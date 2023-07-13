@@ -7,6 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="quienes-somos.html">Quienes Somos</a></li>
+      <li><a href="contactenos.html">Contáctenos</a></li>
+      <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+      <li><button id="registerBtn">Registrarse</button></li>
+      <li><button id="loginBtn">Iniciar sesión</button></li>
+      <li><a href="carrito.html"><img src="carrito-icono.png" alt="Carrito de compras"><span id="cartItemCount">0</span></a></li>
+    </ul>
+  </nav>
+  
+  <!-- Contenido de la página index -->
+  <h1>Productos Destacados</h1>
+  <div class="product">
+    <img src="producto1.png" alt="Producto 1">
+    <h3>Producto 1</h3>
+    <p>Precio: $99.99</p>
+    <button class="addToCartBtn" data-product-id="1">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="producto2.png" alt="Producto 2">
+    <h3>Producto 2</h3>
+    <p>Precio: $49.99</p>
+    <button class="addToCartBtn" data-product-id="2">Agregar al carrito</button>
+  </div>
+  
 </body>
+<script src="script.js" defer></script>
 </html>

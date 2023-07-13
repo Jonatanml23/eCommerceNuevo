@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrito de compras</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <!-- ... -->
+      <li><a href="carrito.html"><img src="carrito-icono.png" alt="Carrito de compras"><span id="cartItemCount">0</span></a></li>
+    </ul>
+  </nav>
+  
+  <!-- Contenido de la página del carrito -->
+  <h1>Carrito de compras</h1>
+  <div id="cartItemsContainer"></div>
+  <p id="subtotal"></p>
+  <h3>Formas de pago:</h3>
+  <input type="radio" name="paymentMethod" value="paypal"> PayPal<br>
+  <input type="radio" name="paymentMethod" value="tarjeta"> Tarjeta de crédito<br>
+  <h3>Opciones de envío:</h3>
+  <input type="radio" name="shippingMethod" value="envioRapido"> Envío rápido<br>
+  <input type="radio" name="shippingMethod" value="envioEstandar"> Envío estándar<br>
+  <button id="checkoutBtn">Pagar</button>
+</body>
+</html>
